@@ -1,0 +1,259 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header-container{
+    display: flex;
+    gap: 97px;
+    margin-bottom: 178px ;
+}
+.left-header{
+    margin-left: 240px;
+}
+.right-header{
+    margin-right: 240px;
+    margin-top: 50px;
+  
+}
+
+
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+
+}
+.btn-header{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    
+}
+/* main part */
+.main-header{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.main-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+   
+    margin: 30px 663px 47px 663px;
+}
+/* item container   */
+.item-container{
+    display: flex;
+    margin: 25px 240px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    display: block;
+      
+    
+}
+.flower-item{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 310px;
+    height: 428px;
+    margin-bottom: 75px;  
+    
+
+}
+.flower-item-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    margin-bottom: 125px; 
+    
+   
+
+}
+.flower-item-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);  
+    margin-bottom: 35px; 
+
+
+}
+.item-link{
+    text-align: center;
+}
+.support-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    margin: 200px 240px 80px 240px;
+}
+.item-1{
+    text-align: center;
+
+}
+.support-text{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+/* sale-container */
+.sale-container{
+    display: flex;
+    margin: 300px 395px 100px 429px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.sale-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    justify-content: center;
+}
+.sale-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+
+}
+.btn-sale{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: center;
+    border: none;
+    margin-left: 230px;
+    margin-top: 40px;
+   
+   
+
+}
+strong{
+    color: #E55473;
+}
+.instagram{
+    margin: 140px 633px 0px 633px;
+    text-align: center;
+}
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.instaram-description{ 
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.image-container{
+    gap: 25px;
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+    display: flex;
+    margin: 0px 240px 128px 240px;
+}
+.deals-container{
+    
+    margin: 0px 240px 150px 240px;
+    text-align: center;
+    background-image: url('../Rectangle9.png');
+    padding-bottom: 100px;
+    border-radius: 8px;
+}
+.deals-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+.deals-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+
+}
+.intp{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.btn-Subscribe{
+
+    
+    border-radius: 8px;
+    background: #E55473;
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border: none;
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+/* footer */
+.footer-container{
+
+}
+.footer-title{
+
+}
+.footer-description-1{
+
+}
+.footer-description-2{
+    
+}
+
